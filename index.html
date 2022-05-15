@@ -1,19 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="This should be no longer than 160 characters. There is Learning in Progress Here.">
-        <meta name="author" content="Myself, of course!">
-        <meta name="keywords" content="people no longer look at this">
-        <!-- Important meta tags -->
-        <meta name="viewport" content="width=device-width, initial-sclae=1.0">
-        <title>This is a Website</title>
-    </head>
-    <body style="background-color:lightblue">
-        <br>
-        <h1><big>This</big> is <small>a</small> Website</h1>
-        <hr/>
-        <p style="background-color: blueviolet" style="color:blue">This is the chemical formula for water: H<sub>2</sub>O</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Format Tutorial" content="I am learning how to format things">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>This is a not header.</h2> 
+            <br/>
+            <!-- EXAMPLE OF MAKING A LINK THAT OPENS WITH NEW TAB-->
+            <a href="https://www.google.com" target="_blank"><b>Link to Google's Homepage</b></a>
+            <br/>
+            <a href="index.html"><b>Link to Index Page</b></a>
+            <br/>
+            <a href="media/fiziks.png"><I>Link to Physics Pic</I></a>
+            <br/>
+            <a href="wrapper.html">Link to me Learning to Use Wrappers and Input</a>
+            <br/>
+            <a href="learning_iframes.html">Link to me Learning to Use iFrames</a>
+        </nav>
+    </header>
+    <hr/>
+
+    <main>
+        <h1>This is the Main Header</h1>
+        This is the main.
+        <!-- MAKE AN IMAGE CLICKABLE -->
+        <a href="https://th.bing.com/th/id/OIP.XeWpngIueff22hw8EX0-SgHaEK?pid=ImgDet&rs=1">
+            <img width="400" src="https://th.bing.com/th/id/OIP.XeWpngIueff22hw8EX0-SgHaEK?pid=ImgDet&rs=1" alt="lion roaring pic">
+        </a>
+            <img width="400" src="media/some_grapes.jpg" alt="Some Grapes">
+
+        <article>
+            <h3>This is Article 1</h3>
+            <section>
+                <h4>Section 1</h4>
+                This is one section of my article that contains an audio file:
+                <br/>
+                <audio controls width="300" src="media/YoureTheOneGflat.mp3">An Audio of You're the One by The Vogues</audio>
+                <aside><I>This is the aside stuff</I></aside>
+            </section>
+            <section>
+                <h4>Section 2</h4>
+                This is another section of my article that contains a video:
+                <br/>
+                <!-- use loop in the video tag if you want video to loop -->
+                <!-- use autoplay in the video tag if you want video to autoplay -->
+                <video controls poster="media/cat_thumbnail.jpg" width="400" src="media/kitten_meowing.mp4">A Video of a Kitten Meowing</video>
+            </section>
+            <section>
+                <h4>Section 3</h4>
+                This is another section of my article that also contains a video:
+                <br/>
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/B4UIO3dDa2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+
+        </article>
+        <article>
+            <h3>This is Article 2</h3>
+            <section>
+                <h5>An example of an unordered list:</h5>
+                <ul>
+                    <li>First item in list</li>
+                    <li>Second item in list</li>
+                    <li>Third Item in list</li>
+                </ul>
+            </section>
+            <section>
+                <h5>An example of an ordered list:</h5>
+                <!-- list attributes: Use type="I" for roman numerals-->
+                <!-- list attributes: Use type="i" for lower case roman numerals-->
+                <!-- list attributes: Use type="a" for lower case letters-->
+                <ol type="A">
+                    <li><a href="https://www.google.com" target="_blank"><b>Link to Google's Homepage</b></a></li>
+                    <li><a href="index.html"><b>Link to Index Page</b></a></li>
+                    <li><a href="media/some_grapes.jpg"><I>Link to Grapes Pic</I></a></li>
+                </ol>
+            </section>
+            <section>
+                <h5>An example of an "obscure" description list:</h5>
+                <dl>
+                    <dt>Chickens</dt>
+                    <dd>- They are floofy.</dd>
+                    <dt>Cows</dt>
+                    <dd>- They are big.</dd>
+                    <dt>Pig</dt>
+                    <dd>- They are not too big and not too floofy.</dd>
+                </dl>
+            </section>
+        </article>
+        <article>
+            <h3>This is Article 3</h3>
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>one</th>
+                                <th>two</th>
+                                <th>three</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>one</td>
+                                <td colspan="2">two</td>
+                                <td>three</td>
+                        </tr>
+                        </tbody>
+
+                    </table>
+                </section>
+        </article>
+    </main>
+    <hr/>
+
+    <footer>
+        This is a footer.
+    </footer>
+</body>
 </html>
